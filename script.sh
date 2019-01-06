@@ -1,7 +1,6 @@
 #!/bin/sh
-echo "Hello Jenkins"
-echo "First arg: $1"
-echo "Second arg: $2"
-sum=$(($1 + $2))
-echo "sum is good  here $sum"
+echo "Hello Jenkins!"
+echo "This would create a file and show the enviornment variables"
+echo $ENV
 touch testfile.txt
+touch /tmp/textfile.txt
